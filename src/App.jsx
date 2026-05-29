@@ -8,7 +8,6 @@ import { DefaultLayout } from './components/templates/DefaultLayout';
 import { Top } from './components/pages/Top';
 import { Users } from './components/pages/Users';
 
-
 function App() {
   return (
     <>
@@ -17,7 +16,7 @@ function App() {
           path="/"
           element={
             <DefaultLayout>
-              <Top />　
+              <Top />
             </DefaultLayout>
           }
         />
@@ -28,7 +27,6 @@ function App() {
           path="/users"
           element={
             <HeaderOnlyLayout>
-              　
               <Users />
             </HeaderOnlyLayout>
           }
